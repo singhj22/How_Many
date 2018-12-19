@@ -40,13 +40,14 @@ public class howMany
 			if (dice==6)
 				six+=1;
 		}
-		System.out.printf("%-10s", "Number", "%-30s", "Number of Times\n");
-		System.out.printf("%-10d", 1, "%-30d", one+"\n");
-		System.out.printf("%-10d", 2, "%-30d", two+"\n");
-		System.out.printf("%-10d", 3, "%-30d", three+"\n");
-		System.out.printf("%-10d", 4, "%-30d", four+"\n");
-		System.out.printf("%-10d", 5, "%-30d", five+"\n");
-		System.out.printf("%-10d", 6, "%-30d", six+"\n");
+		System.out.println("Number\tNumber of Times");
+		System.out.println("One\t"+one);
+		System.out.println("Two\t"+two);
+		System.out.println("Three\t"+three);
+		System.out.println("Four\t"+four);
+		System.out.println("Five\t"+five);
+		System.out.println("Six\t"+six);
+
 
 	}
 
